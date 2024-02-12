@@ -62,7 +62,7 @@ test.describe("JS Package Test", async () => {
     expect(displayApi.status()).toBe(200);
 
     // Formbricks Modal is visible
-    await expect(page.getByRole("link", { name: "Powered by Formbricks" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Powered by Faris" })).toBeVisible();
   });
 
   test("Admin checks Display", async ({ page }) => {
@@ -95,7 +95,7 @@ test.describe("JS Package Test", async () => {
     await expect(page.locator("#formbricks-modal-container")).toHaveCount(1);
 
     // Formbricks Modal is visible
-    await expect(page.getByRole("link", { name: "Powered by Formbricks" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Powered by Faris" })).toBeVisible();
 
     // Fill the Survey
     await page.getByRole("button", { name: "Happy to help!" }).click();
@@ -112,7 +112,7 @@ test.describe("JS Package Test", async () => {
     await page.getByText("Thank you!").click();
 
     // Formbricks Modal is not visible
-    await expect(page.getByText("Powered by Formbricks")).not.toBeVisible({ timeout: 10000 });
+    await expect(page.getByText("Powered by Faris")).not.toBeVisible({ timeout: 10000 });
   });
 
   test("Admin validates Response", async ({ page }) => {

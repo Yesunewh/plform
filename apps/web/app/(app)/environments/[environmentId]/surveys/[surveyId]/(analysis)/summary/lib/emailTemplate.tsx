@@ -348,7 +348,7 @@ const EmailFooter = () => {
   return (
     <Container className="m-auto mt-8 text-center ">
       <Link href="https://formbricks.com/" target="_blank" className="text-xs text-slate-400">
-        Powered by Formbricks
+        Powered by Faris
       </Link>
     </Container>
   );

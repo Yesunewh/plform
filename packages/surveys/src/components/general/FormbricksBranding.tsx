@@ -8,7 +8,7 @@ export default function FormbricksBranding() {
       <p className="text-signature text-xs">
         Powered by{" "}
         <b>
-          <span className="text-info-text hover:text-heading">Formbricks</span>
+          <span className="text-info-text hover:text-heading">Faris</span>
         </b>
       </p>
     </a>
